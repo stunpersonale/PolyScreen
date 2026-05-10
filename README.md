@@ -13,7 +13,7 @@ Python script used to get color values of each pixel in a low-quality screenshot
 - **Make an account, go to the dashboard**
 - **Go to the sidebar, click on "Your Authtoken"**
 - **Copy it.**
-  ![Where you're supposed to look, bud.](/readmeimages/2.png)
+      ![Where you're supposed to look, bud.](/readmeimages/2.png)
 - **Go back to the cmd prompt and write this.**
   `python main.py` (if it doesnt work try `py main.py` or `python3 main.py` or any of those with the -m flag (for example `py -m main.py`)
 - **Put in the Authtoken from ngrok**
