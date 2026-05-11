@@ -36,8 +36,7 @@ latest_data = {
     "width": 240,
     "height": 0,
     "hex_pixels": []
-}
-ngrok.set_auth_token('3DXHwsTc6tz0uQRc59Kf6oEezH3_6gGRumBLwpqCGUa5XQmmN')
+ngrok.set_auth_token(input)
 public_url = ngrok.connect(5000).public_url
 print(f" * ngrok tunnel available at: {public_url} << do not go here if you're epileptic")
 print(f" * ngrok public pixel api at: {public_url}/api/pixels << paste this in polytoria game, you can visit this if you're epileptic")
